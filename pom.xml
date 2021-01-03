@@ -102,10 +102,10 @@
             <artifactId>commons-net</artifactId>
             <version>3.3</version>
         </dependency>
-        <dependency>
+<!--         <dependency>
             <groupId>dom4j</groupId>
             <artifactId>dom4j</artifactId>
-        </dependency>
+        </dependency> -->
         <!-- SpringBoot-整合Web组件 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
