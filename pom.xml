@@ -53,14 +53,14 @@
             <!--<version>2.0.3</version>-->
         <!--</dependency>-->
 
-        <!-- es -->
+        <!-- 
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
-            <!--<version>7.6.2</version>-->
+            <version>7.6.2</version>
         </dependency>
 
-        <!-- kafka -->
+        
         <dependency>
             <groupId>org.springframework.kafka</groupId>
             <artifactId>spring-kafka</artifactId>
@@ -82,11 +82,15 @@
             <version>2.11.3</version>
         </dependency>
 
-        <!-- fastjson -->
+      
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>1.2.56</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -98,7 +102,11 @@
             <artifactId>commons-net</artifactId>
             <version>3.3</version>
         </dependency>
-        <!-- SpringBoot-整合Web组件 -->
+        <dependency>
+            <groupId>dom4j</groupId>
+            <artifactId>dom4j</artifactId>
+        </dependency>
+        SpringBoot-整合Web组件 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
